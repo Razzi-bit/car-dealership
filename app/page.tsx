@@ -1,6 +1,7 @@
 import SectionNewsLetter from "./components/SectionNewsLetter/page";
 import SectionClassics from "./components/SectionOne/page";
-import SectionWeRecommend from "./components/SectionTwo/page";
+import SectionWeRecommendOne from "./components/SectionTwo/page";
+import SectionWeRecommendTwo from "./components/SectionWeRecommendTwo/page";
 import Main from "./components/main/page";
 
 export default function Home() {
@@ -8,8 +9,9 @@ export default function Home() {
     <>
       <Main />
       <SectionClassics />
-      <SectionWeRecommend />
+      <SectionWeRecommendOne />
       <SectionNewsLetter />
+      <SectionWeRecommendTwo />
     </>
   );
 }
