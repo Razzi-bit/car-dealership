@@ -8,7 +8,7 @@ import homeImg1 from "../../../public/homeImg1.jpg";
 
 const Main = () => {
   return (
-    <div className="w-full relative h-full lg:h-screen">
+    <div className="w-full relative h-full lg:min-h-screen">
       <div className="absolute top-0 left-0 right-0 bottom-0 z-[-1] bg-black/60" />
       <Image
         priority
