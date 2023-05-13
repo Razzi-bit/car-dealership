@@ -5,7 +5,7 @@ import homeImg1 from "../../../../public/homeImg1.jpg";
 
 const SectionTwoSlider = () => {
   return (
-    <div className="border border-Cgray/50 flex flex-col lg:flex-row max-w-[1000px] z-10 bg-white">
+    <div className="border border-Cgray/50 flex flex-col lg:flex-row md:max-w-[75%] lg:max-w-[1000px] z-10 bg-white">
       <div className="h-[320px] lg:h-[500px] w-full">
         <Image src={homeImg1} alt="Img" className="h-full w-full object-cover bg-center" />
       </div>
