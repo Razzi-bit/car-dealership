@@ -14,14 +14,16 @@ interface post {
 
 const __Posts = ({ name, text, date, category, link, img }: post) => {
   return (
-    <div className="flex flex-col w-full h-full relative border border-Cgray/50">
-      <Image src={img} alt="Img" height={240} className="object-cover w-full" />
-      <div className="flex flex-col text-dark pb-[50px] p-5">
+    <div className="flex flex-col w-full h-full relative border border-Cgray/50 md:w-[47%] lg:w-[30%] bg-white">
+      <Image src={img} alt="Img" className="object-cover w-full h-[240px] cursor-pointer" />
+      <div className="flex flex-col text-dark pb-[50px] p-5 h-full">
         <div className="flex justify-between mb-8 md:mb-10 text-base">
           <p>{category}</p>
           <p>{date}</p>
         </div>
-        <h3 className="text-2xl mb-2">{name}</h3>
+        <h3 className="text-2xl mb-2 min-h-[90px] text-dark cursor-pointer hover:text-Cred duration-200 ease-in">
+          {name}
+        </h3>
         <p className="my-2">{text}</p>
       </div>
       <Link href={link}>

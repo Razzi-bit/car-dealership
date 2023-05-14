@@ -37,7 +37,7 @@ const SectionBlogPosts = () => {
         <p className="mb-5 md:mb-8 text-xs uppercase">latest blog posts</p>
         <h3 className="my-2 text-3xl md:text-5xl">Auto World Blog</h3>
       </div>
-      <div className="w-full h-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 ">
+      <div className="w-full h-full flex flex-wrap flex-row gap-8 items-center justify-between">
         {posts.map(({ name, text, date, category, link, img }, index) => {
           return (
             <__Posts
@@ -52,7 +52,7 @@ const SectionBlogPosts = () => {
           );
         })}
       </div>
-      <div className="border-Cgray/50 border-l border-r border-b z-[-1] absolute bottom-[60%] top-0 left-0 right-0 xl:right-[-50px] xl:left-[-50px]" />
+      <div className="border-Cgray/50 xl:border-l xl:border-r border-b z-[-1] absolute bottom-[60%] top-0 left-0 right-0 xl:right-[-50px] xl:left-[-50px]" />
     </div>
   );
 };
