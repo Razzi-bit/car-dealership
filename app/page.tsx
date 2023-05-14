@@ -1,3 +1,4 @@
+import SectionBlogPosts from "./components/SectionBlogPosts/page";
 import SectionNewsLetter from "./components/SectionNewsLetter/page";
 import SectionClassics from "./components/SectionOne/page";
 import SectionTestimontials from "./components/SectionTestimontials/page";
@@ -17,6 +18,7 @@ export default function Home() {
       <SectionWeRecommendTwo />
       <SectionTestimontials />
       <TestimontialsBar />
+      <SectionBlogPosts />
     </>
   );
 }
