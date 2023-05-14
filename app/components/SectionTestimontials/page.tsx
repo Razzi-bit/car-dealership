@@ -3,7 +3,7 @@ import __SliderTestimontials from "./__SliderTestimontials/page";
 const SectionTestimontials = () => {
   return (
     <div className="h-full w-full flex flex-col justify-center">
-      <div className="h-full w-full max-w-[1000px] mx-auto py-[60px] md:py-[100px] px-4 relative">
+      <div className="h-full w-full max-w-[1200px] mx-auto py-[60px] md:py-[100px] px-4 relative">
         <div className="text-dark pb-[50px]">
           <p className="text-xs uppercase mb-5">TESTIMONIALS</p>
           <h2 className="text-3xl md:text-5xl mx-2">What Our Clients Say</h2>
