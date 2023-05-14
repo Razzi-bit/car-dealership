@@ -9,7 +9,7 @@ const SectionTestimontials = () => {
           <h2 className="text-3xl md:text-5xl mx-2">What Our Clients Say</h2>
         </div>
         <__SliderTestimontials />
-        <div className="border-Cgray/50 border-l border-r border-t z-[-1] absolute top-[60%] bottom-0 left-0 right-0 xl:right-[-50px] xl:left-[-50px]" />
+        <div className="border-Cgray/50 xl:border-l xl:border-r border-t z-[-1] absolute top-[60%] bottom-0 left-0 right-0 xl:right-[-50px] xl:left-[-50px]" />
       </div>
     </div>
   );
